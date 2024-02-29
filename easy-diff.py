@@ -19,6 +19,8 @@ f2 = open(name_input2, 'r')
 text_1 = f1.read()
 text_2 = f2.read()
 
+print('now processing...')
+
 # output xml file
 soup_xml = kac.convert(name_1, text_1, name_2, text_2, 'xml')
 path_xml = 'out.xml'
@@ -31,7 +33,12 @@ path_html = 'out.html'
 with open(path_html, 'w', encoding='utf-8') as f_html:
     f_html.write(str(soup_html))
 
+print('still continueing...')
+
 # calculate Levenshtein dintance as 'dintance.csv'
 res = kac.compare(path_xml)
 df = kac.convertJson2Df(res)
 df.to_csv('distance.csv')
+
+print('process ends:')
+ptinr('out.xml, out.html and distance.csv are generated.')

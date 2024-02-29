@@ -1,10 +1,10 @@
 # Dependency
 
-easy-diff depends on 'koui'.
+easy-diff depends on `koui`.
 
-please install 'koui' as below.
+please install `koui` as below.
 
-'pip install koui'
+`pip install koui`
 
 
 # Rights

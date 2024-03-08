@@ -7,6 +7,25 @@ please install `koui` as below.
 `pip install koui`
 
 
+# How to use
+
+execute `easy-diff.py` as below.
+
+`python easy-diff.py`
+
+if you want to compare `soseki.txt` as `I am a cat` with `ogai.txt` as `Maihime`, enter like as below.
+
+```
+please enter the first text name. I am a cat
+please enter the first input file path. cat.txt
+
+please enter the first text name. Maihime
+please enter the first input file path. ogai.txt
+```
+
+you get diff as`out.xml` and `out.html`, also Levenshtein distance as `distance.csv`.
+
+
 # Rights
 
 part of easy-diff is originally written by Satoru Nakamura.

@@ -35,7 +35,7 @@ with open(path_html, 'w', encoding='utf-8') as f_html:
 
 print('still continueing...')
 
-# calculate Levenshtein dintance as 'dintance.csv'
+# calculate Levenshtein distance as 'dintance.csv'
 res = kac.compare(path_xml)
 df = kac.convertJson2Df(res)
 df.to_csv('distance.csv')

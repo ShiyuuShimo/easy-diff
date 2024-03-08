@@ -23,7 +23,7 @@ please enter the first text name. Maihime
 please enter the first input file path. ogai.txt
 ```
 
-you get diff as`out.xml` and `out.html`, also Levenshtein distance as `distance.csv`.
+you get diff as `out.xml` and `out.html`, also Levenshtein distance as `distance.csv`.
 
 
 # Rights

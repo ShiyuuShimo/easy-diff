@@ -17,7 +17,7 @@ if you want to compare `soseki.txt` as `I am a cat` with `ogai.txt` as `Maihime`
 
 ```
 please enter the first text name. I am a cat
-please enter the first input file path. cat.txt
+please enter the first input file path. soseki.txt
 
 please enter the first text name. Maihime
 please enter the first input file path. ogai.txt

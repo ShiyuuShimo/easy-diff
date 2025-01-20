@@ -41,4 +41,4 @@ df = kac.convertJson2Df(res)
 df.to_csv('distance.csv')
 
 print('process ends:')
-ptinr('out.xml, out.html and distance.csv are generated.')
+print('out.xml, out.html and distance.csv are generated.')
